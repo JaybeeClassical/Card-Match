@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: linear-gradient( rgb(97, 102, 134),rgb(47,150,163));
   }
   
   .grid-container {
@@ -12,7 +13,7 @@ body {
   .grid-header-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #c9d1f5;
+    background-color: rgb(59, 61, 73);
     padding: 10px;
   }
   
@@ -44,6 +45,7 @@ body {
     color: white;
     background-color: #5168e9;
     border: 0;
+    cursor: pointer;
   }
   
   .game-status-text {
@@ -55,7 +57,7 @@ body {
   .card {
     width: 100%;
     height: 10em;
-    background-color: rgb(25, 110, 189);
+    background-color: rgb(16, 17, 19);
     color: white;
     font-size: 15px;
   }
