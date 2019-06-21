@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import Header from './Components/header/header';
+import Footer from './Components/footer/footer';
 import Card from './Components/card/card';
 import GameOver from './Components/card/GameOver';
 
